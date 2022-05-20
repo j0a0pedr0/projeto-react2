@@ -3,3 +3,32 @@
    padding:0;
    box-sizing:border-box;
 }
+
+.AreaTexto{
+  float:left;
+  width:80%;
+  margin:30px 10%;
+  background:gray; color:#fff;
+  border-radius:10px;
+  padding:15px !important;
+  font-size:18px;
+  line-height:35px;
+}
+
+.Botao{
+  margin:0 auto;
+  display: block;
+  padding:10px 20px;
+  background-color:black;
+  color:red;
+  border-radius:15px;
+  cursor:pointer;
+  font-weight:bold;
+  font-size:17px;
+}
+.Botao:hover{
+  opacity:0.7;
+}
+
+.show{opacity: 1 !important;}
+.hide{opacity: 0 !important;}
