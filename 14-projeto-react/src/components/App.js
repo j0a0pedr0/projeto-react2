@@ -17,10 +17,10 @@ export default class App extends React.Component{
         var NomeBotao;
         if(this.state.classTexto === 'show'){
             Estado="hide";
-            NomeBotao="Esconder"
+            NomeBotao="Mostrar"
         }else{
             Estado="show";
-            NomeBotao="Mostrar";
+            NomeBotao="Esconder";
         }
         this.setState({
             nomeBotao:NomeBotao,
